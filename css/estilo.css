@@ -2,3 +2,39 @@
 {
     color: aquamarine;
 }
+
+body {
+    background-color: lightblue;
+  }
+  
+h1 {
+    color:black;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    background-color: #F6E3CA;
+    border: #D7C8B6 2px solid;
+    display: inline;
+    margin-right: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: black;
+    padding: 0 4px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: white;
+    color: #D7C8B6;
+  }
