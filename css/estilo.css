@@ -19,6 +19,10 @@ p {
 
 ul{
     list-style-type: none;
+    background-color: #F6E3CA;
+    border: #D7C8B6 2px solid;
+    display: inline;
+    margin-right: 10px;
 }
 li{
     background-color: #F6E3CA;
