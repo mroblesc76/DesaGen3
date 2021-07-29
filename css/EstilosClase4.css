@@ -27,13 +27,14 @@ body{
 }
 
 #cabecera{
-    background:olivedrab;
+    /* rgba=red, green, blue, apariencia(transparencia) */
+    background:rgba(26, 152, 184, .5);
     border: 1px solid black;
     padding: 20px;
 }
 
 #menu{
-    background: #CCCCCC;
+    background:rgba(26, 152, 184, .5);
     padding: 5px 15px;
 }
 
@@ -43,26 +44,32 @@ body{
     padding: 10px;
     border: 1px solid #000000;
 }
-/*
+
 #seccion{
     float: left;
     width: 660px;
     margin: 20px;
 }
 
+
 #columna{
     float: left;
     width: 220px;
     margin: 20px 0px;
     background: #CCCCCC;
+    color: black;
 }
+
 
 #pie{
     clear: both;
     text-align: center;
     padding: 20px;
     border-top: 2px dashed #000000;
+    /* el dashed sirve para definir el tipo de linea 
+    tb puede ser solid */ 
 }
+
 
 img{
     width: 620px;
@@ -75,6 +82,7 @@ article{
     margin-bottom: 15px;
 }
 
+/* se escala de article hasta llegar al footer*/
 article footer{
     text-align: left;
 }
@@ -83,10 +91,10 @@ article footer{
 figcaption{
     font-size: 15px;
     color: #ffffff;
+    font-style: italic;
 }
 
 .pieFoto{
     font-size: 50px;
     color: red;
 }
-*/
