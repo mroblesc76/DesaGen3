@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+    display: block;
+}
+
+.pie
+{
+    background-color: rgb(138, 219, 247);
+    color: white;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: xx-large;
+
+}
+
+h1
+{
+    font-size: 60px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: rgb(138, 219, 247);
+    padding: 5px 15px;
+    text-align: right;
+}
+
+.menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    
+    
+}
+
+.container{
+    background: white;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: space-around; */
+}
+
+.item{
+    /* background:rgb(218, 117, 159); */
+    width: 20%;
+    height: 150px;
+    font-size: 250%;
+    /* border-style: solid; */
+    padding-top: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: center; /*profe, no pude centrar mas el texto dentro del item*/
+    border-radius: 30px;
+    box-shadow: gray 5px 5px 5px;
+
+}
